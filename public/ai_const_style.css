@@ -1,0 +1,34 @@
+body{
+    background-image: url(constructive.png);
+    background-color:black;
+    background-repeat: no-repeat;
+    color:white;
+    background-position: center;
+    background-position-y: 100px;
+}
+.heading{
+    font-size: 60px;
+    text-align:center;
+}
+#para1{
+    font-size:xx-large;
+}
+#para2{
+    font-size:xx-large;
+}
+#list{
+    font-size: xx-large;
+}
+.footer{
+    font-size: xx-small;
+    text-align: center;
+}
+#info_link  {
+  color:white;
+}
+#info_link :hover{
+  color:darkgrey;
+}
+#info_link :visited{
+  color:whitesmoke;
+}

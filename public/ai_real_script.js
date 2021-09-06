@@ -1,0 +1,16 @@
+document.getElementById('info_link').addEventListener('click',function(){
+    app.get("/",function(req,res){
+        res.sendFile(__dirname+'/public/ai_real.html');
+        res.redirect('https://beebom.com/examples-of-artificial-intelligence');
+    });
+});
+document.getElementById('const_link').addEventListener('click',function(){
+    app.get("/explore/AI/real/constructive/",function(req,res){
+        res.sendFile(__dirname+'/public/ai_const.html');
+    });
+});
+document.getElementById('des_link').addEventListener('click',function(){
+    app.get("/explore/AI/real/destructive/",function(req,res){
+        res.sendFile(__dirname+'/public/ai_des.html');
+    });
+});
